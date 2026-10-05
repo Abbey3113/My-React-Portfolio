@@ -1,0 +1,15 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  width: clamp(170px, 21vw, 230px);
+  height: 54px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
